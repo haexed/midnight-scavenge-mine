@@ -1,0 +1,32 @@
+{
+  "name": "midnight-miner",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "mine": "node src/index.js start",
+    "test": "node src/test-api.js",
+    "import-cookies": "node import-cookies.js",
+    "logs": "tail -f logs/api-*.log",
+    "logs:all": "cat logs/api-*.log"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-nodejs": "^15.0.1",
+    "axios": "^1.6.2",
+    "axios-cookiejar-support": "^6.0.4",
+    "bip39": "^3.1.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "puppeteer": "^24.29.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tough-cookie": "^5.1.2",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

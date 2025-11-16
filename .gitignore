@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Exports from web miner for mining old unsolved challenges
+webminer-exports/*
+
+# Compiled binaries (security - build from source instead)
+bin/*
+!bin/README.md
+!bin/.gitkeep
+
+# Logs
+*.log
+
+# Keep directory structure with .gitkeep files
+!.gitkeep
+
+# OS and other annoying OS files
+.DS_Store
+
+# Secrets and sensitive data
+registration.json
+registrations.json
+solved-challenges.json
+receipts-db.json
+wallets.json
+twitter-config.json
+consolidation-results.json
+
+# Sensitive tools
+derive-addresses.py
+
+# Archive (old experiments)
+archive/
+
+# Hash engine verification (local build testing)
+hashengine-verify/
+
+# AI/config/dotfiles
+.claude
