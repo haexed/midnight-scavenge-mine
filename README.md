@@ -238,7 +238,7 @@ tail -f logs/parallel-miner.log
 
 ## 📸 Screenshots
 
-![Challenge Solved](screenshots/Screenshot_20251106_220320.png)
+![Challenge Solved](screenshots/Screenshot_20251113_191517.png)
 *Beast miner detecting and solving challenges*
 
 ## 🤝 Contributing
