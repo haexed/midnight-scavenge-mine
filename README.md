@@ -14,7 +14,7 @@ Multi-address parallel mining with zero dev fees. Built with Rust (hash engine b
 ## 🔥 Performance
 
 - **25,000-35,000 H/s** sustained hash rate
-- **3-4 second** average solve time per challenge
+- **2-8 minutes** typical solve time per address (highly variable by difficulty)
 - **32 parallel workers** utilizing Rust's Rayon thread pool
 - **Batch processing** of 300 preimages per iteration
 - **API-driven timing** - no spam, optimal polling only
@@ -215,13 +215,6 @@ Beast and Parallel miners work across multiple addresses:
 node receipts-tracker.js                    # View stats
 node receipts-tracker.js addr1qxxx...       # View specific address
 ```
-
-## 💰 Economics
-- ~219K solutions per challenge globally
-- All valid solutions get credit (not a race)
-- 24 challenges per day = 24 receipts
-- Daily STAR allocation varies per day
-- Potential ROI: 4.7x-47x depending on NIGHT price
 
 ## 🛠️ Development
 
