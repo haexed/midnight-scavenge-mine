@@ -272,7 +272,7 @@ Special thanks to:
 
 - **Scavenger Mine:** https://scavenger.prod.gd.midnighttge.io
 - **Midnight Network:** https://midnight.network
-- **This Project:** https://github.com/yourusername/midnight-scavenge-mine
+- **Web Miner:** https://sm.midnight.gd
 - **Hash Engine (Paddy & Paul):** https://github.com/ADA-Markets/midnight_fetcher_bot_public
 
 ## ⚠️ Disclaimer
